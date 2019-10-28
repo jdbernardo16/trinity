@@ -1,0 +1,91 @@
+/*=================================================================================
+|                                 General Mobile                                  |
+=================================================================================*/
+
+@media screen and (max-width: 1024px) {
+	.hdr-frame .hdr-top {
+		display: none;
+	}
+
+	.header__menu-hldr {
+		display: none;
+	}
+
+	.hdr-frame .header__logo {
+		width: 60px;
+		height: 60px;
+	}
+
+	.bar-hldr {
+		display: block;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+
+	.flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .flex :nth-child(1) { order: 2; }
+    .flex :nth-child(2) { order: 1; }
+
+
+    .ftr-frame .logo-hldr {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .ftr-frame .logo-hldr .ftr-logo {
+    	margin: auto;
+    }
+
+    .ftr-frame .quicklinks-hldr {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .ftr-frame .contact-hldr {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .ftr-frame .connect-hldr {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .ftr-frame .app-ftr-hldr {
+    	width: 100%;
+    }
+
+    .ftr-link-hldr2, .ftr-link-hldr3, .ftr-link-hldr {
+    	display: none;
+    }
+
+    .ftr-frame .ftr-header .fa-caret-down {
+    	display: inline-block;
+    }
+
+    .ftr-frame {
+    	.quicklinks-hldr {
+    		padding-top: 10px;
+    	}
+    	.contact-hldr {
+    		padding-top: 0;
+    	}
+
+    	.connect-hldr {
+    		padding-top: 0;
+    	}
+
+    	.app-ftr-hldr {
+    		padding-top: 0;
+    	}
+    }
+
+    .ftr-frame .ftr-header {
+    	padding-left: 10px;
+    }
+}

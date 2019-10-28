@@ -1,0 +1,6 @@
+/themes/simple
+/vendor/
+/.env
+/silverstripe-cache/
+/resources/
+/public/resources/

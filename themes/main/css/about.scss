@@ -1,0 +1,486 @@
+/*=================================================================================
+|                                     About Us                                    |
+=================================================================================*/
+.abt_frame1 {
+	position: relative;
+	background-color: #f1f1f1;
+	#inside {
+		filter: blur(3px);
+	}
+
+	#outside {
+		position: absolute;
+		top: -20px;
+		left: 0;
+	}
+
+	.abt_frame1-bg {
+		width: 100%;
+		height: 120vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		.button {
+			cursor: pointer;
+		}
+	}
+	.frm-cntnr {
+		z-index: 1;
+	}
+
+	.text-cntnr {
+		position: relative;
+		width: 415px;
+		float: right;
+		margin-top: 22%;
+
+		.text-bg {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			opacity: 0.75;
+			transform: translate(-20px, -20px);
+			padding: 20px;
+			filter: blur(30px);
+
+		}
+
+		.abt_frame1-title {
+			position: relative;
+			z-index: 1;
+			margin-bottom: 20px;
+			* {
+				letter-spacing: 0.5px;
+			}
+		}
+
+		.abt_frame1-desc {
+			position: relative;
+			margin-bottom: 40px;
+			z-index: 1;
+			* {
+				line-height: 30px;
+				letter-spacing: 0.2px;
+			}
+		}
+
+		.btn-hldr {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+}
+
+#abt_frame1-mobile {
+	display: none;
+}
+
+#vidmodal {
+    max-width: 1080px !important;
+    background-color: black;
+    padding: 0;
+    border-radius: 10px;
+
+    .modal-close {
+		position: absolute;
+		left: auto;
+		right: 17px;
+		top: 10px;
+		cursor: pointer;
+
+		.fa-times {
+			color: white;
+			font-size: 30px;
+			background-color: transparent;
+			transition: all 0.34s ease;
+
+			&:hover {
+				color: $green;
+			}
+		}
+	}
+}
+
+.abt_frame2 {
+	position: relative;
+	background-color: #f1f1f1;
+	.frm-cntnr {
+
+	}
+
+	.leaf-logo {
+		position: absolute;
+		top: 0%;
+		left: -3%;
+		width: 200px;
+		height: 200px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		animation: leaf-move 10s ease forwards 1s infinite alternate;
+	}
+
+	@keyframes leaf-move {
+		25% {
+			transform: rotate(30deg);
+		}
+
+		50% {
+			transform: rotate(0deg);
+		}
+
+		75% {
+			transform: rotate(-30deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	.stethoscope-logo {
+		position: absolute;
+		top: -10%;
+		right: 30%;
+		width: 80px;
+		height: 80px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		animation: scale 5s ease forwards 1s infinite alternate;
+	}
+
+	@keyframes scale {
+		to {
+			transform: scale(0.7);
+		}
+	}
+
+	.piatos-logo {
+		position: absolute;
+		top: 50%;
+		right: 65%;
+		width: 60px;
+		height: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		animation: leaf-move 10s ease forwards 1s infinite alternate;
+	}
+
+	.right-logo {
+		position: absolute;
+		bottom: 8%;
+		right: 0;
+		width: 120px;
+		height: 220px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+
+	.left-side {
+		width: 40%;
+
+		.abt_frame2-title {
+			margin-top: -80px;
+		}
+	}
+
+	.right-side {
+		width: 60%;
+		text-align: center;
+
+		.slider-hldr {
+			padding: 100px 0;
+			padding-bottom: 200px;
+		}
+
+		.value {
+			width: 300px;
+			margin: auto;
+			.image-hldr {
+				margin-bottom: 20px;
+			}
+			.image {
+				width: 100%;
+				height: 100px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+
+			.values-title {
+				margin-bottom: 20px;
+				* {
+					font-weight: bold;
+				}
+			}
+
+			.values-desc {
+				* {
+					line-height: 30px;
+				}
+			}
+
+			.continue-btn {
+				* {
+					color: #de8a24;
+					font-weight: bold;
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+#values_modal {
+    max-width: 600px !important;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    .modal-close {
+		position: absolute;
+		left: auto;
+		right: 17px;
+		top: 10px;
+		cursor: pointer;
+
+		.fa-times {
+			color: $brown;
+			font-size: 30px;
+			background-color: transparent;
+			transition: all 0.34s ease;
+
+			&:hover {
+				color: $green;
+			}
+		}
+	}
+
+	.value {
+		.image-hldr {
+			margin-bottom: 20px;
+		}
+		.image {
+			width: 100%;
+			height: 100px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+
+		.values-title {
+			margin-bottom: 20px;
+			* {
+				font-weight: bold;
+			}
+		}
+
+		.values-desc {
+			* {
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+.abt_frame2  .slick-next:before,
+.abt_frame2  .slick-prev:before {
+   display: none;
+}
+
+.abt_frame2 .slick-prev, 
+.abt_frame2 .slick-next {
+   height: 30px;
+
+}
+
+.abt_frame2 button.slick-prev, 
+.abt_frame2 button.slick-next {
+    top: 65%;
+   	border: none;
+   	background-color: $lightgray;
+   	box-shadow: none;
+   	border-radius: 5px;
+   	transition: all 300ms ease;
+   	padding: 20px !important;
+
+   	&:hover {
+		border: none;
+   		background: linear-gradient(98.22deg, #D9473D 0.93%, #DE8A24 100%);
+   	}
+
+ }
+
+.abt_frame2 .slick-prev > i, 
+.abt_frame2 .slick-next > i {
+   font-size: 24px;
+   color: white;
+   transform: translate(-7px, -12px);
+   transition: all 0.34s ease;
+
+   &:hover {
+   	color: white;
+   }
+}
+
+.abt_frame2 .slick-prev {
+	left: -58%;
+}
+
+.abt_frame2 .slick-next {
+	left: -47%;
+}
+
+.abt_frame2 .slick-slider {
+	margin-bottom: 0px;
+}
+
+.abt_frame2 .slick-dots {
+	bottom: 30px;
+}
+
+.abt_frame3 {
+	position: relative;
+	height: 74vh;
+	.frm-cntnr {
+
+	}
+
+	.abt_frame3-bg {
+		position: absolute;
+		top: -24%;
+		width: 100%;
+		height: 92vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.card-slider {
+		height: 85%;
+	}
+
+	.card-hldr {
+		position: absolute;
+		bottom: 0;
+		right: 4%;
+		width: 29%;
+		height: 92%;
+		background-color: #f8f8f8;
+		border-radius: 10px 10px 0 0;
+		box-shadow: 0 -2px 4px 0 #d7d7d7;
+		padding-top: 70px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.card {
+		
+
+		.card-desc {
+			* {
+				text-align: justify;
+			}
+		}
+
+		li {
+			margin-left: 20px;
+			line-height: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#abt_frame1-desktop {
+		display: none;
+	}
+
+	.abt_frame1 {
+		padding-top: 60px;
+		background-color: white;
+	}
+
+	.abt_frame1 #outside {
+		top: 18%;
+	}
+
+	.abt_frame1 .abt_frame1-bg {
+		height: 40vh;
+	}
+
+	#abt_frame1-mobile {
+		display: block;
+		padding-top: 50px;
+		padding-bottom: 70px;
+		text-align: center;
+	}
+
+	.abt_frame2 {
+		padding-top: 50px;
+	}
+
+	.abt_frame2 .frm-cntnr {
+		width: 90%;
+		* {
+			text-align: center;
+		}
+	}
+
+	.abt_frame2 .left-side {
+		width: 100%;
+	}
+
+	.abt_frame2 .right-side {
+		width: 100%;
+	}
+
+	.abt_frame2 .left-side .abt_frame2-title {
+		margin-top: 0;
+	}
+
+	.abt_frame2 .right-side .value {
+		width: 100%;
+	}
+
+	.abt_frame2 .right-side .slider-hldr {
+		padding: 50px 0;
+	}
+
+	.abt_frame2 .stethoscope-logo {
+		display: none;
+	}
+
+	.abt_frame2 .leaf-logo {
+		top: 20%;
+		width: 100px;
+		height: 100px;
+	}
+
+	.abt_frame3 {
+		height: auto;
+		background-color: #f1f1f1;
+	}
+
+	.abt_frame3 .abt_frame3-bg {
+		position: relative;
+		top: -3%;
+		height: 25vh;
+	}
+
+	.abt_frame3 .card-hldr {
+		position: relative;
+		right: 0;
+		height: auto;
+		width: 90%;
+		margin: auto;
+		padding: 50px 0;
+		box-shadow: none;
+		background-color: #f1f1f1;
+	}
+}

@@ -1,0 +1,272 @@
+/*=================================================================================
+|                                Trinity Care App                                 |
+=================================================================================*/
+
+.app_frame1 {
+	padding-top: 119px;
+
+	.vector1 {
+		padding-top: 119px;
+		position: relative;
+		width: 100%;
+		height: 115vh;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		
+
+		.benzene {
+			position: absolute;
+			left: -4%;
+			top: -10%;
+			width: 17%;
+			height: 34%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.benzene2 {
+			position: absolute;
+			left: 20%;
+			top: 10%;
+			width: 12%;
+			height: 18%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.benzene3 {
+			position: absolute;
+			right: -1%;
+			top: 8%;
+			width: 10%;
+			height: 16%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.benzene4 {
+			position: absolute;
+			right: 23%;
+			top: 25%;
+			width: 6%;
+			height: 9%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.benzene5 {
+			position: absolute;
+			right: -2%;
+			bottom: 30%;
+			width: 14%;
+			height: 31%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.benzene6 {
+			position: absolute;
+			left: 10%;
+			bottom: 30%;
+			width: 9%;
+			height: 14%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+		}
+
+		.flipInX {
+			opacity: 1;
+		}
+
+		.app_frame1-content {
+			padding-top: 50px;
+			position: relative;
+			z-index: 1;
+			text-align: center;
+			width: 420px;
+			margin: auto;
+			* {
+				color: white;
+			}
+
+			.download-title {
+				margin-bottom: 5px;
+				* {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.frm-cntnr {
+
+	}
+}
+
+.app_frame2 {
+	position: relative;
+	height: 30vh;
+	.video-hldr {
+		position: absolute;
+		bottom: 60%;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: auto;
+		border-radius: 20px;
+		overflow: hidden;
+		background-color: black;
+		width: 60%;
+		height: 75vh;
+
+	}
+}
+
+.app_frame3 {
+	position: relative;
+	height: 70vh;
+
+	.benzene {
+		position: absolute;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		opacity: 0;
+	}
+
+	.rotateIn {
+		opacity: 1;
+	}
+
+	#ben1 {
+		top: -2%;
+		left: 40%;
+		width: 8%;
+		height: 21%;
+	}
+
+	#ben2 {
+		top: -2%;
+		right: 23%;
+		width: 5%;
+		height: 14%;
+	}
+
+	#ben3 {
+		top: 35%;
+		right: 23%;
+		width: 10%;
+		height: 25%;
+	}
+
+	#ben4 {
+		top: 13%;
+		left: 27%;
+		width: 13%;
+		height: 37%;
+	}
+
+	.phone {
+		position: absolute;
+		top: 5%;
+		left: 6%;
+		width: 35%;
+		height: 85%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+
+	.frm-cntnr {
+		position: relative;
+	}
+	.content-hldr {
+		position: relative;
+		z-index: 1;
+		padding-top: 50px;
+		float: right;
+		width: 50%;
+		height: auto;
+
+		.content-title {
+			* {
+			}
+		}
+
+		.content-desc {
+			* {
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+.app_frame4 {
+	position: relative;
+	.app_frame4-bg {
+		width: 100%;
+		height: 77vh;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.frm-cntnr {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+
+		.trinity_hldr {
+			width: 33.33%;
+		}
+		.icon-hldr {
+			margin-bottom: 10px;
+
+			.icon {
+				width: 100px;
+				height: 100px;
+				margin: auto;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+				opacity: 0;
+			}
+
+			.jackInTheBox {
+				opacity: 1;
+			}
+		}
+
+		.icon-name {
+			text-align: center;
+			margin-bottom: 5px;
+			* {
+				font-weight: bold;
+			}
+		}
+
+		.icon-desc {
+			width: 210px;
+			margin: auto;
+			text-align: center;
+			* {
+				line-height: 30px;
+			}
+		}
+	}
+}
